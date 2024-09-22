@@ -1,12 +1,5 @@
+def roomA(x):
+    return x*(2000)
 
-items=[]
-values=[]
-for i in range(5) :
-  item =input(f"enter an item in the list {i+1} ")
-  value=int(input(f"enter value of {item} "))
-  items.append(item)
-  values.append(value)
-
-bill=sum(values)
-print(f"stotal bill is {bill}")
+print(roomA(2))
 
