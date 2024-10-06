@@ -1,5 +1,11 @@
-def roomA(x):
-    return x*(2000)
-
-print(roomA(2))
-
+def pyramid(x):
+ for i in range(x):
+    for j in range(i,x):
+        print(" ",end=' ')
+    for j in range(i):
+        print("*",end=' ')
+    for j in range(i+1):
+        print("*",end=' ')
+    print()
+user=int(input("enter the number of rows "))
+pyramid(user)
